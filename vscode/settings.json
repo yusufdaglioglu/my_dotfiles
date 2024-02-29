@@ -1,0 +1,30 @@
+{
+  "workbench.tree.indent": 23, // its more than default indentation
+  "workbench.colorCustomizations": {
+    "tree.indentGuidesStroke": "#ff0000", // red color. for file explorer levels.
+    "editorCursor.foreground": "#ff0000", // editor cursor color.
+    "terminalCursor.foreground": "#ff0000" // terminal cursor color.
+  },
+  "editor.copyWithSyntaxHighlighting": false, // default behavior should copy the raw text (because it use more often). if you need syntax highlighted version, you can use command: "editor.action.clipboardCopyWithSyntaxHighlightingAction".
+  "editor.cursorWidth": 3,
+  "extensions.ignoreRecommendations": true,
+  "git.autorefresh": false,
+  "git.autofetch": false,
+  "update.mode": "none", // disabled on portable mode.
+  //"extensions.autoCheckUpdates": false,
+  //"extensions.autoUpdate": false,
+  "editor.renderWhitespace": "all",
+  "editor.renderControlCharacters": true,
+  "breadcrumbs.enabled": true,
+  "telemetry.telemetryLevel": "off",
+  "workbench.enableExperiments": false,
+  "workbench.settings.enableNaturalLanguageSearch": false,
+  "update.showReleaseNotes": false,
+  "typescript.disableAutomaticTypeAcquisition": true, // VScode shows unused for this value (if the extension is disabled)
+  "npm.fetchOnlinePackageInfo": false, // vscode shows unused for this value (if the extension is disabled).
+  "editor.mouseWheelZoom": true,
+  "workbench.startupEditor": "none",
+  "search.useIgnoreFiles": false,
+  "files.autoSave": "off", // this config is used by an extension.
+  "terminal.integrated.cursorBlinking": true // enabled terminal cursor blinking.
+}

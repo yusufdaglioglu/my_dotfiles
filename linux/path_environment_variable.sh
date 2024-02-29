@@ -1,0 +1,13 @@
+# $HOME/.profile file
+
+JAVA_HOME="$HOME/APPS/EXTRACTED_FILES/jdk-11.0.6+10"
+export JAVA_HOME
+PATH="$PATH:$JAVA_HOME/bin"
+
+PATH="$PATH:$HOME/APPS/EXTRACTED_FILES/node-v12.13.0-linux-x64/bin"
+
+PATH="$PATH:$HOME/APPS/EXTRACTED_FILES/apache-maven-3.6.0/bin"
+
+ANDROID_HOME="$HOME/APPS/EXTRACTED_FILES/android-sdk-linux"
+export ANDROID_HOME
+PATH="$PATH:$ANDROID_HOME/tools:$ANDROID_HOME/platform-tools"

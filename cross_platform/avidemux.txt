@@ -1,0 +1,13 @@
+EKRANDA BIR BOLGEYI KAPATMA
+
+"Video ouput" altında "copy" seçili olan selectbox'ta bizim source formatına en benzer format seçilir.
+
+Burada seçim yapılınca output dosyanın extreme boyutlara çıkmaması için şu yapılmalıdır:
+
+"video output" altındaki "configure" butonuna tıklanır (eğer bu button'a basınca popup çıkmıyorsa, bu aşama atlanabilir). açılan popup'ta "encoding mode" "video size (two pass)" yapılır ve taget video size'ımız source dosyamızın 50-100 mb fazlası yapılır.
+
+"video output" altındaki "filters" butonuna tıklanır. açılan popup'ta "sharpness", oranın altında da "blur" a çift çıklanır.
+
+açılan yerde iligli alan seçilir ve "radius" değeri max değere taşınır.
+
+tüm pencereler kapatılır "file" --> "save" yapılması yeterlidir.
